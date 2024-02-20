@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.login-align{
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+
+}
+.login-form input[type="text"],
+.login-form input[type="password"]{
+
+  padding: 2px;
+  margin: 5px 0 15px 0;
+  border-radius: 4px;
+}
+.login-form{
+  height: 100vh;
+  justify-content: center;
+ }
+ .admin{
+  background-color: #f9f9f9;
+ }
+
+.name{
+  text-align: center;
+  color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-size: xx-large;
+}
+
+
+.login-body{
+  background-image: url('C:\Hackkathon\hackathon-task\public\background1.jpg'); 
+  background-size: cover; 
+  height: 100vh;
+}
+
+.table-header{
+  background-color: #f4edaf !important;
+}
+
+.side-bar{
+  background-color: #f4edaf;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.form-control{
+  padding: 10px 15px;
+
+}
+.btn btn-primary{
+  width: 100px;
+  height: 50px;
+  font-size: large;
+   background-color:  rgb(232 13 209);
+  cursor: pointer;
+  padding: 10px 65px;
+  color: #fff;
+
+
+}
+.text-center{
+ font-size:x-large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
